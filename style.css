@@ -1,0 +1,157 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    width: 90%;
+    height: 80vh;
+    margin-left: 150px;
+    border-radius: 30px;
+}
+
+.heading-text {
+    color: white;
+    margin-top: 71px;
+    margin-left: 106px;
+}
+
+.heading-text h1 {
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.heading-text p {
+    font-size: 16px;
+}
+
+.watch-btn {
+    font-size: 20px;
+    color: white;
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+
+}
+
+.heading-img {
+    /* width: 50%; */
+    width: 581px;
+    height: 613px;
+    left: 740px;
+    top: 220px;
+    position: absolute;
+
+}
+
+.upcoming {
+    background-color: black;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+
+.match-link {
+    color: white;
+}
+
+.match-link h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: black;
+    border: 1px solid #FFFFFF;
+    width: 242px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+#red {
+    background: #DD0000;
+    color: white;
+    border: none;
+}
+
+.match-tamplates {
+    margin-left: 100px;
+    margin-top: 80px;
+    display: flex;
+    margin-bottom: 80px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+}
+
+.team-vs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+.team-info {
+    border: 1px solid #E8E8E8;
+    width: 282px;
+    height: 142px;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+.team-img span {
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 0x;
+}
+
+.vs-info {
+    margin-left: 20px;
+
+}
+
+.vs-info p {
+    color: #4D4D4D;
+}
+
+footer {
+    background: #161616;
+    width: 1600px;
+    height: 444px;
+}
+
+.footer-links {
+    color: white;
+}
+
+.footer-links h1 {
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 35px;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #FFFFFF1A
+}
+
+.links {
+    display: flex;
+    margin-left: 22%;
+    margin-top: 50px;
+
+}
+
+.links h6 {
+    margin-left: 70px;
+    font-size: 16px;
+    color: #B9B9B9;
+
+}
